@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416B4A1F1CA274A500079901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B4A1E1CA274A500079901 /* AppDelegate.swift */; };
+		416B4A241CA274A500079901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416B4A221CA274A500079901 /* Main.storyboard */; };
+		416B4A261CA274A500079901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416B4A251CA274A500079901 /* Assets.xcassets */; };
+		416B4A291CA274A500079901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416B4A271CA274A500079901 /* LaunchScreen.storyboard */; };
+		416B4A341CA274A500079901 /* iMAccordionTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B4A331CA274A500079901 /* iMAccordionTableTests.swift */; };
+		416B4A3F1CA274A500079901 /* iMAccordionTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B4A3E1CA274A500079901 /* iMAccordionTableUITests.swift */; };
+		416B4A4D1CA2779600079901 /* iMAccordionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B4A4C1CA2779600079901 /* iMAccordionController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		416B4A301CA274A500079901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416B4A131CA274A500079901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416B4A1A1CA274A500079901;
+			remoteInfo = iMAccordionTable;
+		};
+		416B4A3B1CA274A500079901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416B4A131CA274A500079901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416B4A1A1CA274A500079901;
+			remoteInfo = iMAccordionTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		416B4A1B1CA274A500079901 /* iMAccordionTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMAccordionTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		416B4A1E1CA274A500079901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		416B4A231CA274A500079901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		416B4A251CA274A500079901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		416B4A281CA274A500079901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		416B4A2A1CA274A500079901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416B4A2F1CA274A500079901 /* iMAccordionTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMAccordionTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416B4A331CA274A500079901 /* iMAccordionTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMAccordionTableTests.swift; sourceTree = "<group>"; };
+		416B4A351CA274A500079901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416B4A3A1CA274A500079901 /* iMAccordionTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMAccordionTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416B4A3E1CA274A500079901 /* iMAccordionTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMAccordionTableUITests.swift; sourceTree = "<group>"; };
+		416B4A401CA274A500079901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416B4A4C1CA2779600079901 /* iMAccordionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iMAccordionController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416B4A181CA274A500079901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416B4A2C1CA274A500079901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416B4A371CA274A500079901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416B4A121CA274A500079901 = {
+			isa = PBXGroup;
+			children = (
+				416B4A1D1CA274A500079901 /* iMAccordionTable */,
+				416B4A321CA274A500079901 /* iMAccordionTableTests */,
+				416B4A3D1CA274A500079901 /* iMAccordionTableUITests */,
+				416B4A1C1CA274A500079901 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		416B4A1C1CA274A500079901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416B4A1B1CA274A500079901 /* iMAccordionTable.app */,
+				416B4A2F1CA274A500079901 /* iMAccordionTableTests.xctest */,
+				416B4A3A1CA274A500079901 /* iMAccordionTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416B4A1D1CA274A500079901 /* iMAccordionTable */ = {
+			isa = PBXGroup;
+			children = (
+				416B4A1E1CA274A500079901 /* AppDelegate.swift */,
+				416B4A4C1CA2779600079901 /* iMAccordionController.swift */,
+				416B4A221CA274A500079901 /* Main.storyboard */,
+				416B4A251CA274A500079901 /* Assets.xcassets */,
+				416B4A271CA274A500079901 /* LaunchScreen.storyboard */,
+				416B4A2A1CA274A500079901 /* Info.plist */,
+			);
+			path = iMAccordionTable;
+			sourceTree = "<group>";
+		};
+		416B4A321CA274A500079901 /* iMAccordionTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				416B4A331CA274A500079901 /* iMAccordionTableTests.swift */,
+				416B4A351CA274A500079901 /* Info.plist */,
+			);
+			path = iMAccordionTableTests;
+			sourceTree = "<group>";
+		};
+		416B4A3D1CA274A500079901 /* iMAccordionTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				416B4A3E1CA274A500079901 /* iMAccordionTableUITests.swift */,
+				416B4A401CA274A500079901 /* Info.plist */,
+			);
+			path = iMAccordionTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416B4A1A1CA274A500079901 /* iMAccordionTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416B4A431CA274A500079901 /* Build configuration list for PBXNativeTarget "iMAccordionTable" */;
+			buildPhases = (
+				416B4A171CA274A500079901 /* Sources */,
+				416B4A181CA274A500079901 /* Frameworks */,
+				416B4A191CA274A500079901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMAccordionTable;
+			productName = iMAccordionTable;
+			productReference = 416B4A1B1CA274A500079901 /* iMAccordionTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		416B4A2E1CA274A500079901 /* iMAccordionTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416B4A461CA274A500079901 /* Build configuration list for PBXNativeTarget "iMAccordionTableTests" */;
+			buildPhases = (
+				416B4A2B1CA274A500079901 /* Sources */,
+				416B4A2C1CA274A500079901 /* Frameworks */,
+				416B4A2D1CA274A500079901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416B4A311CA274A500079901 /* PBXTargetDependency */,
+			);
+			name = iMAccordionTableTests;
+			productName = iMAccordionTableTests;
+			productReference = 416B4A2F1CA274A500079901 /* iMAccordionTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		416B4A391CA274A500079901 /* iMAccordionTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416B4A491CA274A500079901 /* Build configuration list for PBXNativeTarget "iMAccordionTableUITests" */;
+			buildPhases = (
+				416B4A361CA274A500079901 /* Sources */,
+				416B4A371CA274A500079901 /* Frameworks */,
+				416B4A381CA274A500079901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416B4A3C1CA274A500079901 /* PBXTargetDependency */,
+			);
+			name = iMAccordionTableUITests;
+			productName = iMAccordionTableUITests;
+			productReference = 416B4A3A1CA274A500079901 /* iMAccordionTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416B4A131CA274A500079901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = iMuzahid;
+				TargetAttributes = {
+					416B4A1A1CA274A500079901 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					416B4A2E1CA274A500079901 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 416B4A1A1CA274A500079901;
+					};
+					416B4A391CA274A500079901 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 416B4A1A1CA274A500079901;
+					};
+				};
+			};
+			buildConfigurationList = 416B4A161CA274A500079901 /* Build configuration list for PBXProject "iMAccordionTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416B4A121CA274A500079901;
+			productRefGroup = 416B4A1C1CA274A500079901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416B4A1A1CA274A500079901 /* iMAccordionTable */,
+				416B4A2E1CA274A500079901 /* iMAccordionTableTests */,
+				416B4A391CA274A500079901 /* iMAccordionTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416B4A191CA274A500079901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416B4A291CA274A500079901 /* LaunchScreen.storyboard in Resources */,
+				416B4A261CA274A500079901 /* Assets.xcassets in Resources */,
+				416B4A241CA274A500079901 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416B4A2D1CA274A500079901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416B4A381CA274A500079901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416B4A171CA274A500079901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416B4A4D1CA2779600079901 /* iMAccordionController.swift in Sources */,
+				416B4A1F1CA274A500079901 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416B4A2B1CA274A500079901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416B4A341CA274A500079901 /* iMAccordionTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416B4A361CA274A500079901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416B4A3F1CA274A500079901 /* iMAccordionTableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		416B4A311CA274A500079901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416B4A1A1CA274A500079901 /* iMAccordionTable */;
+			targetProxy = 416B4A301CA274A500079901 /* PBXContainerItemProxy */;
+		};
+		416B4A3C1CA274A500079901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416B4A1A1CA274A500079901 /* iMAccordionTable */;
+			targetProxy = 416B4A3B1CA274A500079901 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		416B4A221CA274A500079901 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416B4A231CA274A500079901 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		416B4A271CA274A500079901 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416B4A281CA274A500079901 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416B4A411CA274A500079901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		416B4A421CA274A500079901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416B4A441CA274A500079901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMAccordionTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iMuzahid.iMAccordionTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		416B4A451CA274A500079901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMAccordionTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iMuzahid.iMAccordionTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		416B4A471CA274A500079901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iMAccordionTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iMuzahid.iMAccordionTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMAccordionTable.app/iMAccordionTable";
+			};
+			name = Debug;
+		};
+		416B4A481CA274A500079901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iMAccordionTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iMuzahid.iMAccordionTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMAccordionTable.app/iMAccordionTable";
+			};
+			name = Release;
+		};
+		416B4A4A1CA274A500079901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iMAccordionTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iMuzahid.iMAccordionTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iMAccordionTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		416B4A4B1CA274A500079901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iMAccordionTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iMuzahid.iMAccordionTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iMAccordionTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416B4A161CA274A500079901 /* Build configuration list for PBXProject "iMAccordionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416B4A411CA274A500079901 /* Debug */,
+				416B4A421CA274A500079901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416B4A431CA274A500079901 /* Build configuration list for PBXNativeTarget "iMAccordionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416B4A441CA274A500079901 /* Debug */,
+				416B4A451CA274A500079901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416B4A461CA274A500079901 /* Build configuration list for PBXNativeTarget "iMAccordionTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416B4A471CA274A500079901 /* Debug */,
+				416B4A481CA274A500079901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416B4A491CA274A500079901 /* Build configuration list for PBXNativeTarget "iMAccordionTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416B4A4A1CA274A500079901 /* Debug */,
+				416B4A4B1CA274A500079901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416B4A131CA274A500079901 /* Project object */;
+}
