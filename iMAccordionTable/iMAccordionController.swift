@@ -23,7 +23,7 @@ class iMAccordionController: UITableViewController {
 		
 		// Intially set all sections are not being collasp
 		// String "0" means disable collasp and "1" means enable collasp
-		boolArray = [String](count: sectionArray.count, repeatedValue: "0")
+		boolArray = [String](repeating: "0", count: sectionArray.count)
 		
 		let groupA = ["BANGLADESH","INDIA","PAKISTHAN","SOUTH AFRICA"]
 		let groupB = ["AUSTRALIA","ENGLAND","SRILANKA","WEST INDIES"]
@@ -42,11 +42,11 @@ class iMAccordionController: UITableViewController {
 	}
 	
 	//MARK: UITableView DataSource
-	override func numberOfSectionsInTableView(tableView: UITableView) -> Int{
+	override func numberOfSections(in tableView: UITableView) -> Int{
 		return sectionArray.count
 	}
 	
-	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
 		let boolForSec = boolArray[section] as String
 		if (boolForSec.toInt() != 0) {
 			let arr = dataDic[sectionArray[section]]
@@ -57,17 +57,17 @@ class iMAccordionController: UITableViewController {
 	}
 	
 
-	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
 		
-		let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) 
+		let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) 
 		
-		let boolForSec = boolArray[indexPath.section] as String
+		let boolForSec = boolArray[(indexPath as NSIndexPath).section] as String
 		if (boolForSec.toInt() != 0) {
-			var arr : [String] = dataDic[sectionArray[indexPath.section]]!
-			cell.textLabel?.text = arr[indexPath.row] as String
-			cell.textLabel?.textColor = UIColor.whiteColor()
-			cell.textLabel?.font = UIFont.systemFontOfSize(20)
-			cell.textLabel?.backgroundColor = UIColor.clearColor()
+			var arr : [String] = dataDic[sectionArray[(indexPath as NSIndexPath).section]]!
+			cell.textLabel?.text = arr[(indexPath as NSIndexPath).row] as String
+			cell.textLabel?.textColor = UIColor.white
+			cell.textLabel?.font = UIFont.systemFont(ofSize: 20)
+			cell.textLabel?.backgroundColor = UIColor.clear
 		}else {
 			
 		}
@@ -75,28 +75,28 @@ class iMAccordionController: UITableViewController {
 		return cell
 	}
 	
-	override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+	override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
 		
 		return 50
 	}
 	
-	override func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+	override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
 		return 1
 	}
 	
-	override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+	override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
 		
-		let headerView = UIView(frame: CGRectMake(0, 0, tableView.frame.size.width, 40))
-		headerView.backgroundColor = UIColor.blueColor()
+		let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 40))
+		headerView.backgroundColor = UIColor.blue
 		headerView.tag = section
 		
 		let headerString = UILabel(frame: CGRect(x: 10, y: 10, width: tableView.frame.size.width-10, height: 30)) as UILabel
-		headerString.textColor = UIColor.whiteColor()
-		headerString.font = UIFont.systemFontOfSize(25)
+		headerString.textColor = UIColor.white
+		headerString.font = UIFont.systemFont(ofSize: 25)
 		headerString.text = sectionArray[section] as String
 		headerView .addSubview(headerString)
 		
-		let headerTapped = UITapGestureRecognizer (target: self, action:"sectionHeaderTapped:")
+		let headerTapped = UITapGestureRecognizer (target: self, action:#selector(iMAccordionController.sectionHeaderTapped(_:)))
 		headerView .addGestureRecognizer(headerTapped)
 		
 		return headerView
@@ -104,13 +104,13 @@ class iMAccordionController: UITableViewController {
 	
 	// MARK: UITableView Delegate
 	
-	override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-		changeFlagForSection(indexPath.section)
-		tableView.reloadSections(NSIndexSet(index: indexPath.section), withRowAnimation: UITableViewRowAnimation.Fade)
+	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		changeFlagForSection((indexPath as NSIndexPath).section)
+		tableView.reloadSections(IndexSet(integer: (indexPath as NSIndexPath).section), with: UITableViewRowAnimation.fade)
 	}
 	
 	// Handle Tap on section
-	func sectionHeaderTapped(tapped: UITapGestureRecognizer){
+	func sectionHeaderTapped(_ tapped: UITapGestureRecognizer){
 		
 		guard let section = tapped.view?.tag else{
 			print("Cannot found tapped view tag")
@@ -120,11 +120,11 @@ class iMAccordionController: UITableViewController {
 		changeFlagForSection(section)
 		
 		// Relaod tableview with animation
-		tableView.reloadSections(NSIndexSet(index: section), withRowAnimation: UITableViewRowAnimation.Fade)
+		tableView.reloadSections(IndexSet(integer: section), with: UITableViewRowAnimation.fade)
 	}
 	
 	// Handle collaspable flag
-	func changeFlagForSection(section: Int){
+	func changeFlagForSection(_ section: Int){
 		let boolForSec = boolArray[section] as String
 		if (boolForSec.toInt() != 0) {
 			// if section is already collasp then disable collasp flag
