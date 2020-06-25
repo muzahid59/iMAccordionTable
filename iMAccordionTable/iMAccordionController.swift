@@ -106,11 +106,11 @@ class iMAccordionController: UITableViewController {
 	
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		changeFlagForSection((indexPath as NSIndexPath).section)
-		tableView.reloadSections(IndexSet(integer: (indexPath as NSIndexPath).section), with: UITableViewRowAnimation.fade)
+        tableView.reloadSections(IndexSet(integer: (indexPath as NSIndexPath).section), with: UITableView.RowAnimation.fade)
 	}
 	
 	// Handle Tap on section
-	func sectionHeaderTapped(_ tapped: UITapGestureRecognizer){
+    @objc func sectionHeaderTapped(_ tapped: UITapGestureRecognizer){
 		
 		guard let section = tapped.view?.tag else{
 			print("Cannot found tapped view tag")
@@ -120,7 +120,7 @@ class iMAccordionController: UITableViewController {
 		changeFlagForSection(section)
 		
 		// Relaod tableview with animation
-		tableView.reloadSections(IndexSet(integer: section), with: UITableViewRowAnimation.fade)
+        tableView.reloadSections(IndexSet(integer: section), with: UITableView.RowAnimation.fade)
 	}
 	
 	// Handle collaspable flag
