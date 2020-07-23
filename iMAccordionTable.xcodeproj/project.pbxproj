@@ -14,6 +14,7 @@
 		416B4A341CA274A500079901 /* iMAccordionTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B4A331CA274A500079901 /* iMAccordionTableTests.swift */; };
 		416B4A3F1CA274A500079901 /* iMAccordionTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B4A3E1CA274A500079901 /* iMAccordionTableUITests.swift */; };
 		416B4A4D1CA2779600079901 /* iMAccordionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B4A4C1CA2779600079901 /* iMAccordionController.swift */; };
+		4AC74A8724B416A100A2CC34 /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC74A8624B416A000A2CC34 /* SectionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		416B4A3E1CA274A500079901 /* iMAccordionTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMAccordionTableUITests.swift; sourceTree = "<group>"; };
 		416B4A401CA274A500079901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		416B4A4C1CA2779600079901 /* iMAccordionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iMAccordionController.swift; sourceTree = "<group>"; };
+		4AC74A8624B416A000A2CC34 /* SectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				416B4A1E1CA274A500079901 /* AppDelegate.swift */,
 				416B4A4C1CA2779600079901 /* iMAccordionController.swift */,
+				4AC74A8624B416A000A2CC34 /* SectionData.swift */,
 				416B4A221CA274A500079901 /* Main.storyboard */,
 				416B4A251CA274A500079901 /* Assets.xcassets */,
 				416B4A271CA274A500079901 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				416B4A4D1CA2779600079901 /* iMAccordionController.swift in Sources */,
 				416B4A1F1CA274A500079901 /* AppDelegate.swift in Sources */,
+				4AC74A8724B416A100A2CC34 /* SectionData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
